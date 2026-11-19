@@ -1,7 +1,7 @@
 import 'package:logger/logger.dart';
 
 // Логирование событий различного уровня
-// Дата создания: 16.11.2026
+// Дата создания: 16-11-2026
 // Автор создания: 1
 
 class Logging {
@@ -11,7 +11,7 @@ class Logging {
   // Входные параметры: тег, событие, детали
   // Выходные данные: формат сообщения
   String _format(String tag, String event, String details) {
-    return '[$tag]: $event - $details';
+    return '[$tag]: $event — $details';
   }
 
   // Лог уровня debug
